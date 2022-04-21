@@ -1,0 +1,104 @@
+
+
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+	display:inline-block;
+	margin-right: 5.5em;
+	font-family:monospace;
+	font-size: 1.2em;
+	
+}
+h2,h4{
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: underline;
+}
+.main1{
+	background-image: url(../images/sky.webp);
+    height:400px;
+    max-width:1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+    
+	
+}
+.main1child{
+    background-color:white ;
+    text-align: center;
+	 
+}
+.portfolio{
+	display: flex;
+	flex-direction:column ;
+	align-items: center
+	;
+
+}
+.imagepanel{
+	display:inline-flex;
+	flex-wrap:wrap;
+	
+}
+.imagepanel img{
+
+height :100px;
+max-width:200px;
+margin: 20px;
+justify-content:center;
+
+}
+.imagepanel figcaption{
+	margin:20px;
+	font-family:robotic,monospace;
+}
+#hteam{
+	text-align:center;
+}
+.team{
+	background-image: url(../images/imgb.webp);
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+	justify-content: center;
+	
+}
+
+.team img{
+	height :400px;
+max-width:300px;
+margin: 20px;
+
+
+}
+
+.team figcaption{
+	margin:20px;
+	color:white;
+	font-family:monospace;
+}
+.contact{
+	text-align:center;
+}
+footer{
+	font-style: italic;
+	text-align: center;
+}
+@media only screen and (max-width:586px){
+	
+	.team figcaption{
+	
+	color:black;
+	
+}
+	
+	
+}
